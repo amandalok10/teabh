@@ -1,16 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-162053477-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-162053477-1');
-</script>
-	
 	<title>Welcome to TeaBH</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
@@ -22,45 +12,30 @@
 			body {
   
                 font-family: 'Assistant', sans-serif;
+                background-image: url("WebHero.jpg"); 
 }
         
 
         
     .container {
-  max-width: 100%;
-        max-height: 100%; 
-        overflow: hidden; 
-        position: relative; 
+  width: 100%;
+    
+     
 }
 
 
         .right {
-            position: absolute;
-            left: 100px; 
-            top: 100px;
-    
-            z-index: 10; 
+            margin-left: 80px; 
+            margin-top: 60px;
+        width: 500px; 
+        }
+        
+        h4 {
+            color: white; 
         }
 		
 	</style>
-	
-<!-- Facebook Pixel Code -->
-<script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '506359923394063');
-  fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=506359923394063&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Facebook Pixel Code -->
+
 </head>
 <body>
     
@@ -82,35 +57,32 @@
   </div>
 </nav>
 
-    
-    <div class="container">
- 
-    <img src="Screen Shot 2019-11-03 at 7.02.03 PM.png">
-
         
   <div class="right">
             
-        <h4>Enter your email to gain exclusive access!</h4> <br>
+        <h4>Enter your email to gain exclusive access and receive a FREE copy of our tea ritual!</h4> <br>
 <form action="https://send.pageclip.co/TvaHPdC4TvQrtbDAVms9RYOqrWi4r4kc/Email" class="pageclip-form" method="post">
   <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
     <div class="form-group">
    
-    <input type="text" class="form-control" name="name" id="exampleFormControlInput1" placeholder="Name" required>
+    <input type="text" class="form-control" name="name" id="exampleFormControlInput1" placeholder="Name">
   </div>
     
     <div class="form-group">
 
-    <input type="email" class="form-control" name="email" id="exampleFormControlInput1" placeholder="Email" required>
+    <input type="email" class="form-control" name="email" id="exampleFormControlInput1" placeholder="Email">
   </div>
 
   <!-- This button will have a loading spinner. Keep the inner span for best results. -->
+    
+    
 
-      <button type="submit" class="pageclip-form__submit btn btn-outline-danger">Sign me up!</button>
+   <button class="pageclip-form__submit btn btn-light" type="submit" onclick="window.open('TeaBHritual.pdf')">Download Now!
+    </button>
 
 </form>
 
   </div>
-</div>
 
     
 
