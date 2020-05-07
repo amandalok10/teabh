@@ -1,0 +1,48 @@
+
+body {
+
+font-family: 'Quicksand', sans-serif;}
+
+#names{
+    width: 850px;
+    text-align: center;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    color: grey;
+    background-color: white;
+ }
+
+
+h3 {
+    font-size: 30px;
+    color: black;
+}
+
+#form {
+width: 650px;
+  margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+img {
+width: 20%;
+margin-left: auto;
+margin-right: auto
+
+}
+
+#cluster {
+    width: 250px;
+    height: 200px;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0px 2px 10px 0px rgba(0,12,54,0.15);
+    background-color: rgba(255, 255, 255, 1);
+    border: solid rgba(227, 227, 227, 1) 0px;
+}
